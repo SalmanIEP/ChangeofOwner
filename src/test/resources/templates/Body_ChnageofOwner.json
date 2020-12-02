@@ -1,0 +1,8 @@
+{
+  "caseType": "${caseType}",
+  "newOwnerFirstName": "${newOwnerFirstName}",
+  "newOwnerLastName": "${newOwnerLastName}",
+  "IPRightNumber": "${IPRightNumber}",
+  "businessDomain": "${businessDomain}",
+  "userId": "${userId}"
+}

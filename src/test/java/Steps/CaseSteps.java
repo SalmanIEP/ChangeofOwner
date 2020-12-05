@@ -22,7 +22,6 @@ public class CaseSteps {
     endpoints.ServiceEndpoint service;
     @Given("a case request contains the following details:")
     public void aCaseRequestContainsTheFollowingDetails(List<Map<String, String>> CaseDetails) throws IOException {
-        service  = new endpoints.ServiceEndpoint();
         CreateCaseUrl = service.getUrlEndpoint("save-address");
         state = MergeFrom.template("templates/Body_ChnageofOwner.json")
                 .withDefaultValuesFrom(FieldValues.in("templates/changeofOwner.properties"))
